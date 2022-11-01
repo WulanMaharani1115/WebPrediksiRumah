@@ -10,7 +10,7 @@ import time
 
 # import the data
 data = pd.read_csv("DataClean.csv")  # membaca dataset
-image = Image.open("house.png")
+image = Image.open("house.jpeg")
 st.title("Selamat Datang di Aplikasi cekhargarumah")
 st.image(image, use_column_width=True)  # menampilkan gambar yang ada di file
 
